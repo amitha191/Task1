@@ -16,7 +16,7 @@ body{
 }
 /* Header CSS */
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Images/banner.png');
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/banner.png');
     background-size: cover;
     height: 750px;
     color: white;
@@ -68,7 +68,7 @@ header p:nth-of-type(2){
 
 .section2{
     margin-top: 250px;
-    background-image: url('/Images/plant.jfif');
+    background-image: url('../Images/plant.jfif');
     background-size: cover;
     height: 600px;
     position: relative;
@@ -164,7 +164,7 @@ header p:nth-of-type(2){
 
 /* SECTION 6 CSS */
 .section6{
-    background-image: url('/Images/table.jpg');
+    background-image: url('../Images/table.jpg');
     height: 600px;
     background-size: cover;
     position: relative;
@@ -193,7 +193,7 @@ header p:nth-of-type(2){
 
 /* SECTION 7 */
 .section7{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/Images/plant-dark.jfif');
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../Images/plant-dark.jfif');
     /* height: 300px; */
     display: flex;
     justify-content: center;

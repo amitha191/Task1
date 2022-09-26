@@ -36,7 +36,7 @@ header p:nth-of-type(2){
     margin-top: 20px;
 }
 
-/* SECTION1 CSS */
+/* SECTION 1 CSS */
 
 .card i{
     background-color:#E12350;
@@ -64,7 +64,7 @@ header p:nth-of-type(2){
     margin: 20px;
 }
 
-/* SECTION2 CSS */
+/* SECTION 2 CSS */
 
 .section2{
     margin-top: 250px;
@@ -74,7 +74,6 @@ header p:nth-of-type(2){
     position: relative;
     padding: 20px;
 }
-
 .sec2-content{
     position: absolute;
     left: 55%;
@@ -82,7 +81,6 @@ header p:nth-of-type(2){
     width: 40%;
    
 }
-
 .top-content{
     background-color: #F0F0F0;
     padding: 50px;
@@ -101,15 +99,19 @@ header p:nth-of-type(2){
     background-color: #F0F0F0;
 }
 
-/* SECTION3 CSS */
+/* SECTION 3 CSS */
 
 .section3{
     display: flex;
 }
-
+.a-pink{
+    color:#E12350;
+    text-decoration: none;
+}
 .sec3-content{
     padding: 40px 20px;
     background-color: #202020;
+    height: 100%;
 }
 .sec3-content h3{
     color: white;
@@ -118,13 +120,12 @@ header p:nth-of-type(2){
     color: #868686;
 }
 
-/* SECTION4 CSS */
+/* SECTION 4 CSS */
 .section4{
     align-items: center;
 }
 .sec4-content{
     text-align: center;
-    margin: 80px;
 }
 .sec4-images{
     display: flex;
@@ -137,4 +138,116 @@ header p:nth-of-type(2){
     width: 260px;
     height: 260px;
     margin-top: 25px;
+}
+
+/* SECTION 5 CSS */
+.section5{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+}
+.left{
+  width: 50%;
+  padding: 100px;
+  line-height: 30px;
+  margin-top: 40px;
+
+}
+.right{
+    width: 50%;
+    padding: 50px;
+    margin:  0px 70px;
+}
+.ordered-list{
+    color: #8a8787;
+}
+
+/* SECTION 6 CSS */
+.section6{
+    background-image: url('/Images/table.jpg');
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.section6 p:nth-child(1){
+    padding: 70px 0px 0px 60px;
+}
+.section6 h2{
+    width: 20%;
+    padding: 20px 0px 0px 60px;
+  }
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    position: absolute;
+    top:35% ;
+    margin: 80px 0px 0px 32px;
+}
+.feature{
+    width: 40%;
+    padding: 20px 0px;
+    
+}
+
+/* SECTION 7 */
+.section7{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/Images/plant-dark.jfif');
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    padding: 4.5em;
+}
+.sec7-content{
+    border: 1px solid rgba(254, 254, 254,0.7);
+    color: white;
+    width: 50%;
+    padding: 4em;
+    text-align: center;
+   
+}
+.sec7-content h1{
+    font-size: 40px;
+}
+/* SECTION 8 */
+.section8{
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.contact{
+    width: 50%;
+    color: white;
+    margin: 10em 0px 50px 10em;
+}
+.contact p{
+    margin-top: 1.5em;
+}
+.map{
+    margin: 4em 8em 4em 0em;
+    width: 50%;
+}
+.contact p a{
+    color: pink;
+}
+
+/* FOOTER */
+footer{
+    background-color: #313131;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 4.5em;
+}
+
+.footer1 p:nth-child(1){
+    font-size: 22px;
+    margin: 1em;
+    opacity: 0.8;
+}
+.footer1 p:nth-child(2){
+    font-size: 18px;
+    margin: 1em;
+    opacity: 0.6;
 }

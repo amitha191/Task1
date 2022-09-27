@@ -52,6 +52,10 @@ header p:nth-of-type(2){
     position: absolute;
     top:700px;
 }
+.card p{
+    color: #8a8787;
+    font-style: italic;
+}
 .card{
    border: 1px solid grey;
     text-align: center;
@@ -89,6 +93,9 @@ header p:nth-of-type(2){
     display: flex;
     gap: 2%;
     padding-top: 30px;
+}
+.bottom-content p{
+    font-style: italic;
 }
 .bottom-left, .bottom-right{
     padding: 80px 1px 40px 20px;
@@ -207,7 +214,9 @@ h4{
     width: 40%;
     padding: 20px 0px;  
 }
-
+.feature p{
+    font-style: italic;
+}
 /* SECTION 7 */
 .section7{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../Images/plant-dark.jfif');

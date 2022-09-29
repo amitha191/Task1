@@ -280,6 +280,71 @@ footer{
     opacity: 0.6;
 }
 
+
+@media screen and (max-width:768px){
+    
+    .banner-content{
+        margin-top: 150px;
+     }
+     .banner-content h1{
+        width: 60%;
+    }
+    .card{
+        width: 40%;
+    }
+    .cards1{
+        padding: 0em;
+        gap: 1.5em;
+        justify-content: center;
+        flex-wrap: wrap;
+        top: -110px;
+    }
+    .section2{
+        margin-top: 34em;
+        height: 100vh;
+        justify-content: center;
+        background-position: center;
+    }
+    .sec2-content{
+        padding: 0em;
+        width: 100%;    
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sec3-content,.image1{
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .sec4-images{
+        flex-wrap: wrap;
+    }
+    .sec4-images img{
+        width: 46%;
+    }
+    .section5{
+        margin: 60px 30px;
+    }
+    .section6{
+        height: 130vh;
+    }
+    .sec7-content{
+        width: 100%;
+    }
+    .contact{
+        margin-left: 4em;
+    }
+    
+    .map{
+        width: 100%;
+       
+    }
+
+   
+}
+
+
 @media only screen and (max-width:478px) { 
     /* Banner */
     .banner-content{
@@ -297,12 +362,12 @@ footer{
     .cards1{
         flex-direction: column;
         padding: 4em;
-        gap: 2rem;
-        
+        gap: 2rem; 
+        top: -180px; 
     }
     /* SECTION 2 */
    .section2{
-        margin-top: 1000px;
+        margin-top: 1150px;
         background-position: center; 
         height: 150vh;   
     }
@@ -323,15 +388,12 @@ footer{
     .row{
         flex-direction: column;
     }
-    .sec3-content{
+    .sec3-content,.image1{
         width: 100%;
         padding: 0px;
     }
     .sec3-content p, .sec3-content h3{
         padding: 0.5em 1em;
-    }
-    .image1 img{
-        width: 100%;
     }
     /* SECTION 4 */
     .section4{
@@ -398,8 +460,4 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-}
-
-@media only screen and (max-width:992){
-    
 }
